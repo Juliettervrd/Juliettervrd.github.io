@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 65vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #eef2f3;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  padding: 10px;
+  color:#003480;
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: #003480;
+}
+
+h4{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: #e4ba41;
+}
+
+h5{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  color: #003480;
+}
+
+a{
+  font-family: 'Quicksand', sans-serif;
+  text-align: 
+}
+
+p{
+font-family: 'Quicksand', sans-serif;
+}
+
+
+img{
+  object-fit: cover;
+  width:100%;
+  height:200px;
+  display:block;
+}
+
+
+.card1{
+  background: transparent;
+  margin: 10px;
+  border: 2px solid #003480;
+  border-radius: 8px;
+  text-align:center;
+  object-fit: cover;
+}
+
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px grey;
+  border: 10px solid white;
+ }
+
+
+.btn-container {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: bottom;
+}
+
+.my-btn {
+  font-weight: bold;
+  font-family: arial;
+  color: white;
+  border: 3px white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 10px;
+  background: #e4ba41;
+  box-shadow: 2px 2px 10px white;
+}
+
+.my-btn:hover {
+  color: white;
+  border: 3px solid white;
+}
+
+.container: {
+  width: 300px;
+  height: 500px;
+}
+
+
+.footer {
+  background: #E4E5E6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+
+
